@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.livekitdemo.livekitdemo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b6f492b-0a74-4a3e-bb8a-1d66ae4c818f"
+      }
+    },
+    "plugins": [
+      [
+        "@config-plugins/react-native-webrtc"
+      ]
+    ]
   }
 }
